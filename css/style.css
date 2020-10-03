@@ -1,3 +1,8 @@
+:root {
+    --WHITE: #ffffff;
+    --YELLOW: #f8c300;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -19,9 +24,23 @@ header {
     width: auto;
     height: 60px;
     float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header-menu-logo-item {
+    display: inline-block;
 }
 
 .header-menu-logo-img {
     height: 40px;
     margin: 10px 0px;
+}
+
+.header-menu-logo-txt {
+    font-size: 50px;
+    font-family: 'Horta';
+    color: var(--YELLOW);
+    margin: 10px;
 }
