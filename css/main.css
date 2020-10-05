@@ -1,16 +1,11 @@
-:root {
-    --WHITE: #ffffff;
-    --YELLOW: #f8c300;
-    --BLACK: #000000;
-    --BLACK-SH: #00000090;
-    --FONT-FAMILY-1: 'Horta', sans-serif;
-    --FONT-FAMILY-2: 'Product', sans-serif;
-}
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.main {
+    padding-top: 60px;
 }
 
 .change-block {
