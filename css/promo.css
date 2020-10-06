@@ -10,16 +10,19 @@
     font-size: 30px;
 }
 
-.promo-block-item-wrapper {
-    display: flex;
-    justify-content: center;
+.promo-block {
     background-color: var(--WHITE);
-    padding: 5% 15%;
 }
 
-.promo-block {
-    letter-spacing: 1.3px;
+.promo-block-item-wrapper {
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2% 15%;
+    margin: 0 auto;
 }
+
 
 .promo-block-item {
     width: 250px;
@@ -27,7 +30,7 @@
 
 
     border: 2px var(--BLACK) solid;
-    margin: 0 auto;
+    margin: 20px;
     padding-top: 15px;
     position: relative;
     transition: 0.5s;
@@ -76,7 +79,7 @@
     margin: 0 auto;
 
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     font-size: 15px;
     font-weight: 500;
     color: var(--BLACK);

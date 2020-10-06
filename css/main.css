@@ -3,14 +3,14 @@
 }
 
 .change-block {
-    padding: 5% 15%;
+    padding: 2% 15%;
     background-color: var(--WHITE);
 }
 
 .change-title {
     width: 100%;
     color: var(--BLACK);
-    margin-bottom: 2.5%;
+    margin-bottom: 2%;
 }
 
 .change-title span {
@@ -40,11 +40,10 @@
 }
 
 .change-block-button {
+    padding-top: 2.9%;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
-.g-line-in-change-block {
-    margin-bottom: 2.9%;
-}
+.g-line-in-change-block {}
