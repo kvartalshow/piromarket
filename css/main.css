@@ -4,6 +4,8 @@
 
 .change-block {
     padding: 2% 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: var(--WHITE);
 }
 
@@ -45,5 +47,3 @@
     justify-content: center;
     align-content: center;
 }
-
-.g-line-in-change-block {}

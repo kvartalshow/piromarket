@@ -93,7 +93,7 @@
 
 .g-line-in-promo {
     margin-top: 10px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     transition: 0.3s;
 }
 
@@ -107,4 +107,21 @@
     font-size: 20px;
     text-transform: uppercase;
     font-family: var(--FONT-FAMILY-1);
+}
+
+@media (max-width: 1000px) {
+    .promo-block-item-wrapper {
+        padding: 2% 5%;
+        display: block;
+    }
+
+    .promo-block-item {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .promo-block-item:hover {
+        top: 0;
+    }
 }
