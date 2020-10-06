@@ -1,18 +1,18 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .button {
     width: 100px;
     padding: 10px 10px 6px 10px;
-    border: 2px var(--YELLOW) solid;
+    border: 2px var(--BLACK) solid;
+    color: var(--BLACK);
     transition: 0.3s;
     text-align: center;
 }
 
 .button:hover {
-    color: var(--BLACK);
     background-color: var(--YELLOW);
+    border: 2px var(--YELLOW) solid;
+}
+
+.button:active {
+    background-color: var(--YELLOW);
+
 }

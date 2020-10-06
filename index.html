@@ -5,28 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link id="favicon" rel="icon" type="image/x-icon" href="media/favicon/fire.ico">
-    <title>Piromarket | Интернет-магазин пиротехники</title>
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/horta" type="text/css" />
+    <title>Piromarket.ua | Интернет-магазин пиротехники</title>
+    <link rel="stylesheet" href="css/menu.css" async>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/button.css" async>
+    <link rel="stylesheet" href="css/promo.css" async>
     <style>
-        @font-face {
-            font-family: 'Horta';
-            src: url(/fonts/Horta.ttf)
-        }
-
-        @font-face {
-            font-family: 'Product';
-            src: url(/fonts/Product\ Sansi.ttf);
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 
         :root {
             --WHITE: #ffffff;
             --YELLOW: #f8c300;
             --BLACK: #000000;
             --BLACK-SH: #00000090;
-            --FONT-FAMILY-1: 'Horta', sans-serif;
-            --FONT-FAMILY-2: 'Product', sans-serif;
+            --FONT-FAMILY-1: 'HortaRegular', sans-serif;
+            --FONT-FAMILY-2: 'Oswald', sans-serif;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .g-line-title {
+            width: 50px;
+            height: 2px;
+            background-color: var(--YELLOW);
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -36,7 +43,7 @@
         <div class="menu">
             <div class="header-menu-logo">
                 <img src="/media/gif/fire.gif" alt="" class="header-menu-logo-img header-menu-logo-item">
-                <div class="header-menu-logo-txt header-menu-logo-item">Piromarket</div>
+                <div class="header-menu-logo-txt header-menu-logo-item">Piromarket.ua</div>
             </div>
             <div class="header-menu-bag">
                 <img src="/media/img/bag.png" alt="">
@@ -67,16 +74,52 @@
             <div class="change-title">
                 <h1>Выбери <span>тип</span></h1>
             </div>
-            <div class="g-line-in-block"></div>
+            <div class="g-line-title g-line-in-change-block"></div>
             <div class="change-block-button">
                 <a href="">
-                    <div class="button button-change">Питарды</div>
+                    <div class="button button-change">Петарды</div>
                 </a>
                 <a href="">
                     <div class="button button-change">Фейерверк</div>
                 </a>
             </div>
         </article>
+        <div class="promo-block">
+            <div class="promo-txt">
+                <h1>Акции</h1>
+                <div class="g-line-title g-line-in-promo"></div>
+            </div>
+            <div class="promo-block-item-wrapper">
+                <div class="promo-block-item">
+                    <div class="promo-block-item-title">Петарда K44 (Феерия)</div>
+                    <div class="promo-block-item-img-1"></div>
+                    <div class="g-line-title g-line-in-promo"></div>
+                    <div class="promo-block-item-title">10 ₴/шт <span>12 ₴/шт</span></div>
+                    <a href="">
+                        <div class="button button-promo-block">Купить</div>
+                    </a>
+                </div>
+                <div class="promo-block-item">
+                    <div class="promo-block-item-title">Петарда P2000 (Феерия)</div>
+                    <div class="promo-block-item-img-2"></div>
+                    <div class="g-line-title g-line-in-promo"></div>
+                    <div class="promo-block-item-title">5 ₴/шт <span>6 ₴/шт</span></div>
+                    <a href="">
+                        <div class="button button-promo-block">Купить</div>
+                    </a>
+                </div>
+                <div class="promo-block-item">
+                    <div class="promo-block-item-title">Петарда К44 (Феерия)</div>
+                    <div class="promo-block-item-img-3"></div>
+                    <div class="g-line-title g-line-in-promo"></div>
+                    <div class="promo-block-item-title">10 ₴/шт <span>12 ₴/шт</span></div>
+                    <a href="">
+                        <div class="button button-promo-block">Купить</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
     </main>
 </body>
 

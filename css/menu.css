@@ -1,15 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .header {
     width: 100%;
     height: 60px;
     background: var(--BLACK);
     padding: 0 15%;
     position: fixed;
+    z-index: 1;
 }
 
 .menu {
@@ -39,7 +34,7 @@
     text-transform: uppercase;
     font-family: var(--FONT-FAMILY-1);
     color: var(--YELLOW);
-    margin: 15px 10px;
+    margin: 15px 0px;
 }
 
 .header-menu-items {

@@ -1,0 +1,107 @@
+.promo-txt {
+    color: var(--YELLOW);
+    font-family: var(--FONT-FAMILY-1);
+    background-color: var(--BLACK);
+    text-align: center;
+    padding: 2% 0;
+}
+
+.promo-txt h1 {
+    font-size: 30px;
+}
+
+.promo-block-item-wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: var(--WHITE);
+    padding: 5% 15%;
+}
+
+.promo-block {
+    letter-spacing: 1.3px;
+}
+
+.promo-block-item {
+    width: 250px;
+    height: 350px;
+
+
+    border: 2px var(--BLACK) solid;
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.promo-block-item:hover {
+    top: -5px;
+}
+
+.promo-block-item:hover .g-line-in-promo {
+    width: 100px;
+}
+
+.promo-block-item-img-1 {
+    width: 190px;
+    height: 165px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    background-image: url(/media/img/k44-1.jpg);
+    background-size: cover;
+}
+
+.promo-block-item-img-2 {
+    width: 190px;
+    height: 165px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    background-image: url(/media/img/p2000-1.jpg);
+    background-size: cover;
+}
+
+.promo-block-item-img-3 {
+    width: 190px;
+    height: 165px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    background-image: url(/media/img/k44-1.jpg);
+    background-size: cover;
+}
+
+.promo-block-item-title {
+    width: 250px;
+    margin: 0 auto;
+
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--BLACK);
+    font-family: var(--FONT-FAMILY-2);
+}
+
+.promo-block-item-title span {
+    text-decoration: line-through;
+    color: var(--BLACK-SH)
+}
+
+.g-line-in-promo {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+}
+
+.button-promo-block {
+    margin: 0 auto;
+}
+
+.promo-block a {
+    text-decoration: none;
+    color: var(--YELLOW);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: var(--FONT-FAMILY-1);
+}

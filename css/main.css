@@ -1,21 +1,15 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .main {
     padding-top: 60px;
 }
 
 .change-block {
     padding: 5% 15%;
-    background-color: var(--BLACK);
+    background-color: var(--WHITE);
 }
 
 .change-title {
     width: 100%;
-    color: var(--WHITE);
+    color: var(--BLACK);
     margin-bottom: 2.5%;
 }
 
@@ -25,8 +19,9 @@
 
 .change-title h1 {
     text-align: center;
-    width: 100px;
+    width: 150px;
     margin: 0 auto;
+    font-size: 30px;
     font-family: var(--FONT-FAMILY-1);
 }
 
@@ -50,10 +45,6 @@
     align-content: center;
 }
 
-.g-line-in-block {
-    width: 50px;
-    height: 2px;
-    background-color: var(--YELLOW);
-    margin: 0 auto;
+.g-line-in-change-block {
     margin-bottom: 2.9%;
 }
