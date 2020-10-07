@@ -1,4 +1,4 @@
-.promo-txt {
+.pirotech-txt {
     color: var(--YELLOW);
     font-family: var(--FONT-FAMILY-1);
     background-color: var(--BLACK);
@@ -6,15 +6,11 @@
     padding: 2% 0;
 }
 
-.promo-txt h1 {
+.pirotech-txt h1 {
     font-size: 30px;
 }
 
-.promo-block {
-    background-color: var(--WHITE);
-}
-
-.promo-block-item-wrapper {
+.pirotech-block-item-wrapper {
     max-width: 1300px;
     display: flex;
     justify-content: center;
@@ -23,8 +19,7 @@
     margin: 0 auto;
 }
 
-
-.promo-block-item {
+.pirotech-block-item {
     width: 250px;
     height: 350px;
 
@@ -36,48 +31,45 @@
     transition: 0.5s;
 }
 
-.promo-block-item:hover {
+.pirotech-block-item-img {
+    width: 190px;
+    height: 165px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+    background-size: cover;
+    border-radius: 2px;
+}
+
+.pirotech-block-item:nth-child(1)>.pirotech-block-item-img {
+    background-image: url(/media/img/k44-1.jpg);
+}
+
+.pirotech-block-item:nth-child(2)>.pirotech-block-item-img {
+    background-image: url(/media/img/k44-1.jpg);
+}
+
+.pirotech-block-item:nth-child(3)>.pirotech-block-item-img {
+    background-image: url(/media/img/k44-1.jpg);
+}
+
+.pirotech-block-item:nth-child(4)>.pirotech-block-item-img {
+    background-image: url(/media/img/k44-1.jpg);
+}
+
+.pirotech-block-item:nth-child(5)>.pirotech-block-item-img {
+    background-image: url(/media/img/k44-1.jpg);
+}
+
+.pirotech-block-item:hover {
     top: -5px;
 }
 
-.promo-block-item:hover .g-line-in-promo {
+.pirotech-block-item:hover .g-line-in-pirotech {
     width: 100px;
 }
 
-.promo-block-item-img-1 {
-    width: 190px;
-    height: 165px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-
-    background-image: url(/media/img/k44-1.jpg);
-    background-size: cover;
-    border-radius: 2px;
-}
-
-.promo-block-item-img-2 {
-    width: 190px;
-    height: 165px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-
-    background-image: url(/media/img/p2000-1.jpg);
-    background-size: cover;
-    border-radius: 2px;
-}
-
-.promo-block-item-img-3 {
-    width: 190px;
-    height: 165px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-
-    background-image: url(/media/img/k44-1.jpg);
-    background-size: cover;
-    border-radius: 2px;
-}
-
-.promo-block-item-title {
+.pirotech-block-item-title {
     width: 250px;
     margin: 0 auto;
 
@@ -89,22 +81,22 @@
     font-family: var(--FONT-FAMILY-2);
 }
 
-.promo-block-item-title span {
+.pirotech-block-item-title span {
     text-decoration: line-through;
     color: var(--BLACK-SH)
 }
 
-.g-line-in-promo {
+.g-line-in-pirotech {
     margin-top: 10px;
     margin-bottom: 10px;
     transition: 0.3s;
 }
 
-.button-promo-block {
+.button-pirotech-block {
     margin: 0 auto;
 }
 
-.promo-block a {
+.pirotech-block a {
     text-decoration: none;
     color: var(--YELLOW);
     font-size: 20px;
@@ -113,18 +105,18 @@
 }
 
 @media (max-width: 1000px) {
-    .promo-block-item-wrapper {
+    .pirotech-block-item-wrapper {
         padding: 2% 5%;
         display: block;
     }
 
-    .promo-block-item {
+    .pirotech-block-item {
         margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
-    .promo-block-item:hover {
+    .pirotech-block-item:hover {
         top: 0;
     }
 }
